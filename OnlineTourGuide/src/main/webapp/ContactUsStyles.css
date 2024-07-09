@@ -1,0 +1,142 @@
+/*HEADER CSS*/
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            position: relative;
+            background-color: #333;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        header h1 {
+            color: white;
+            font-family: League Spartan;
+            float: left;
+            margin: 0;
+        }
+        .nav {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: auto;
+            float: left;
+            margin-left: 20px;
+        }
+        nav {
+            padding: 10px;
+        }
+        nav a {
+            color: #ddd;
+            text-decoration: none;
+        }
+        nav ul {
+            padding: 0;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline;
+            padding-inline: 30px;
+        }
+        .button {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            float: right;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        
+        
+     /*CONTACT US STYLES*/   
+       .contact-container {
+            padding: 20px;
+        }
+        .contact-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .contact-header h2 {
+            font-size: 2em;
+            margin: 0;
+            font-family: League Spartan;
+            
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .contact-info h3 {
+            margin: 10px 0;
+        }
+        .map {
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            border: 1px solid #ddd;
+        }
+        
+        
+        /*FOOTER CSS*/
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        
+        
+        
+        
+    
